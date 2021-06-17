@@ -5,9 +5,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome &#8212; Everything Brainhack: past, present and future</title>
+    <title>Brainhack Book &#8212; Everything Brainhack: past, present and future</title>
     
-  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
 
     
   <link rel="stylesheet"
@@ -19,34 +20,30 @@
 
     
       
-  <link rel="stylesheet"
-    href="_static/vendor/open-sans_all/1.44.1/index.css">
-  <link rel="stylesheet"
-    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
 
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -57,14 +54,14 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Overview" href="overview.html" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
-
-
-
+    
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
     
 
     <div class="container-xl">
@@ -73,35 +70,40 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="#">
-  
-  <img src="_static/brainhack-logo.png" class="logo" alt="logo">
-  
-  
-  <h1 class="site-logo" id="site-title">Everything Brainhack: past, present and future</h1>
-  
-</a>
+    <a class="navbar-brand text-wrap" href="#">
+      
+      <img src="_static/brainhack-logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Everything Brainhack: past, present and future</h1>
+      
+    </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form>
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <ul class="nav sidenav_l1">
- <li class="toctree-l1 current active">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1 current">
   <a class="reference internal" href="#">
-   Welcome
+   Brainhack Book
   </a>
  </li>
 </ul>
-<ul class="nav sidenav_l1">
+<p class="caption">
+ <span class="caption-text">
+  Evolving Brainhack Book
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="overview.html">
    Overview
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="geographical_distribution.html">
-   Brainhacks of the past - geographical distribution
+  <a class="reference internal" href="evolution_of_brainhack.html">
+   Brainhack Cartography
   </a>
  </li>
  <li class="toctree-l1">
@@ -109,8 +111,51 @@
    Brainhack Glossary
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="contributors.html">
+   Contributors
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="acknowledgments.html">
+   Acknowledgments
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Neuroview
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuroview_manuscript.html">
+   Neuroview Manuscript
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuroview_figure.html">
+   Neuroview Figure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuroview_contributors.html">
+   Neuroview Contributors
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuroview_acknowledgments.html">
+   Neuroview Acknowledgments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="neuroview_authorship-agreement.html">
+   Authorship Agreement
+  </a>
+ </li>
 </ul>
 
+    </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
@@ -126,21 +171,21 @@
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
@@ -158,7 +203,7 @@
     </div>
 </div>
 
-        <!-- Source interaction buttons -->
+            <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
@@ -176,25 +221,25 @@
     </div>
 </div>
 
+            <!-- Full screen (wrap in <a> to have style consistency -->
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
-
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
-        <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
         </div>
-        <nav id="bd-toc-nav">
-            <ul class="nav section-nav flex-column">
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#feedback-questions">
    Feedback &amp; Questions
@@ -204,11 +249,13 @@
   <a class="reference internal nav-link" href="#thanks-and-acknowledgment">
    Thanks and Acknowledgment
   </a>
+  <ul class="nav section-nav flex-column">
+  </ul>
  </li>
 </ul>
 
-        </nav>
-        
+            </nav>
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -216,14 +263,22 @@
         
               <div>
                 
-  <p><img alt="brainhack-logo" src="_images/brainhack-logo.png" /></p>
-<div class="section" id="welcome">
-<h1>Welcome<a class="headerlink" href="#welcome" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="brainhack-book">
+<h1>Brainhack Book<a class="headerlink" href="#brainhack-book" title="Permalink to this headline">¶</a></h1>
+<p>Since the first Brainhack in 2012, the Brainhack community has dynamically grown and inspired a culture of open, inclusive, community-driven neuroscience. In August 2020, Neuron invited a Brainhack Neuroview piece, and the Brainhack community has worked together on this manuscript that highlights the vision, features and impact of Brainhacks – for individual researchers, the community, and science in general.</p>
+<p>We collectively aimed to include as much of the Brainhack community as possible in writing this piece by extending an open invitation across Brainhack channels of communication. While the Neuroview writing process is almost complete, we invite any members of the community we might have missed to join the community effort in shaping this Brainhack Jupyter Book!</p>
+<p>This Jupyter Book is a living and growing resource where the expanding community is warmly invited to contribute, give feedback, and add their own ideas. This resource serves to document the vision, organization, and innovation of Brainhacks around the world, as well as to showcase the diversity of events and initiatives that all contribute to the Brainhack mission.</p>
+<p>Come join us!</p>
 <div class="section" id="feedback-questions">
 <h2>Feedback &amp; Questions<a class="headerlink" href="#feedback-questions" title="Permalink to this headline">¶</a></h2>
+<p>Please feel free to <a class="reference external" href="https://github.com/brainhackorg/brainhack_jupyter_book/issues/new?assignees=&amp;labels=&amp;template=question.md&amp;title=">open an issue</a> to this book to get in touch with us for any questions or feedback.</p>
 </div>
 <div class="section" id="thanks-and-acknowledgment">
 <h2>Thanks and Acknowledgment<a class="headerlink" href="#thanks-and-acknowledgment" title="Permalink to this headline">¶</a></h2>
+<p>We acknowledge all the individuals who contributed and will make ongoing contributions to the insights and resources included in this Jupyter Book. Moreover, we would like to acknowledge all Brainhack organizers, supporters, presenters, and participants for their contribution to growing and maintaining this community. The benefits described in this book would not be possible without them. We also thank all institutions, labs, and organisations who have helped this community grow, meet in stimulating environments, and add an excellent educational resource pool and agenda. With an expanding community, Brainhack’s support network keeps growing and we thank all labs and individual researchers for their dedication and expertise offered to this community.</p>
+<p>The current full list can be found in the <a class="reference internal" href="neuroview_acknowledgments.html"><span class="doc std std-doc">Neuroview acknowledgments table</span></a> and will keep growing here in the book.</p>
+<div class="toctree-wrapper compound">
+</div>
 <div class="toctree-wrapper compound">
 </div>
 </div>
@@ -251,14 +306,14 @@
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='right-next' id="next-link" href="overview.html" title="next page">Overview</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
@@ -275,11 +330,9 @@
 
       </div>
     </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
 
-    
-  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
-
-
-    
+  
   </body>
 </html>
